@@ -2,7 +2,7 @@
 
 ## Sobre o projeto:
 
-Uma "to do list" básica, a interface foi feita pra trabalhar com sombras e React.js, esse repositório é apenas uma estrutura básica do que eu realmente pretendo fazer depois, quando tiver acesso a um computador/notebook, por enquanto esse repositório é igual aos outros feito 100% em um celular.
+Uma "to do list" básica, a interface foi feita pra trabalhar com sombras e React.js, esse repositório é apenas uma estrutura básica do que eu realmente pretendo fazer depois, quando tiver acesso a um computador/notebook, por enquanto esse repositório é igual aos outros feito 100% em um celular, acessível apenas para mobile.
 
 **Usando:**
 * HTML
