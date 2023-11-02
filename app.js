@@ -31,22 +31,23 @@ class TaskList extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1 className="my-title">To-Do List</h1>
+      <div className="toDoList">
+        <h1 className="title">To-Do List</h1>
         <div>
           <input
             type="text"
             value={this.state.newTask}
             onChange={this.handleTaskChange}
             placeholder="Add a new task"
-            className="my-input"
+            className="inputAdd"
           />
-          <button onClick={this.addTask} className="my-button">Add</button>
+          <br/>
+          <button onClick={this.addTask} className="btnAdd">Add</button>
         </div>
         <ul>
           {this.state.tasks.map((task, index) => (
-            <li key={index} className="my-list-item">
-              {task} <button onClick={() => this.removeTask(index)} className="my-button">Remove</button>
+            <li key={index} className="listItem">
+              {task} <button onClick={() => this.removeTask(index)} className="btnRemove">Remove</button>
             </li>
           ))}
         </ul>

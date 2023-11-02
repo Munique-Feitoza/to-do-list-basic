@@ -1,36 +1,54 @@
 html {
   margin: 0;
-  padding: 30px;
+  padding: 2rem;
   font-family: sans-serif;
 }
 h1 {
   text-align: center;
 }
 body {
-  width: 300px;
-  height: 700px;
+  width: 19rem;
+  height: 40rem;
   background: linear-gradient(45deg, rgba(0,0,0,20%), rgba(0,0,0,5%));
 }
-#btn {
+.toDoList {
+  text-align: center;
+}
+.btnAdd, .btnRemove {
   padding: 5px;
-  margin: 20px 50px;
   background-color: rgba(255,255,255,50%);
   border: none; 
   border-radius: 5px; 
   box-shadow: -1px 1px 3px rgba(0,0,0,70%), 
-    1px -1px 5px rgba(255,255,255,50%);
+    inset 1px -1px 5px rgba(255,255,255,80%);
 }
 .checked {
   text-decoration: line-through;
 }
-#task, li {
+#task, li, .inputAdd {
   padding: 5px;
   margin: 10px 40px 10px 0;
   border: none;
   border-radius: 5px;
   background-color: rgba(255,255,255,50%);
   box-shadow: inset -1px 1px 5px rgba(0,0,0,70%), 
-    1px -1px 5px rgba(255,255,255,50%);
+    1px -1px 5px rgba(255,255,255,80%);
+}
+.inputAdd {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+}
+.btnAdd {
+  width: 104%;
+}
+.btnRemove {
+  position: fixed;
+  right: 2rem;
+}
+.listItem {
+  height: 1.5rem;
+  text-align: left;
 }
 span {
   padding: 0 3px;
