@@ -1,11 +1,13 @@
-# to do list basic
+# To Do list basic
 
-## Sobre o projeto:
+**About:**
 
-Uma "to do list" básica, a interface foi feita pra trabalhar com sombras e React.js, esse repositório é apenas uma estrutura básica do que eu realmente pretendo fazer depois, quando tiver acesso a um computador/notebook, por enquanto esse repositório é igual aos outros feito 100% em um celular, acessível apenas para mobile.
+A basic "to do list", the interface was made to work with shadows and React.js, this repository is just a basic structure of what I really intend to do later, when I have access to a computer/notebook, for now this repository is like the others, made 100% on a cell phone, accessible only on mobile.
 
-**Usando:**
+**Using:**
 * HTML
 * CSS
 * JavaScript
 * React.js - _versão: 17.0.1_
+
+[GitHub Playground](https://munique-feitoza.github.io/to-do-list-basic/)
